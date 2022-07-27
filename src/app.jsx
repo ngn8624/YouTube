@@ -16,7 +16,6 @@ function App() {
       .catch(error => console.log('error', error));
 
   },[]);
-  console.log("1",videos);
   return <VideoList videos={videos} />;
 }
 
